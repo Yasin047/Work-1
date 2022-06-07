@@ -1,0 +1,43 @@
+                /* Tablet */
+@media only screen and (min-width: 200px) and (max-width:991px){
+ 
+  .title-name{font-size: 50px;}
+  .text-area p , .read-more{font-size: 18px; padding-top: 10px}
+  .slider-area-section{margin-top: 0px;}
+  .text-area-1{width: 100%; padding: 20px;}
+  .content-area{ margin-top: 20px;}
+  .tweets .p-2{top: 240px;}
+  .links{width: 30%; margin-left: 20px;}
+  .blogs{width: 30%; margin-left: 20px;}
+  .forms{width: 28%; margin-left: 20px;}
+}
+
+
+                /* Mobile */
+
+@media only screen and (min-width: 200px) and (max-width:480px){
+ 
+  .header-area , .logo-section , .hero-area{display: flex; flex-direction: column; align-items: center; justify-content: center;}
+  .link-bar{width: 100%;}
+  .link-bar ul{font-size: 13px; justify-content: center; padding-left: 0px; padding: 20px;}
+  .search-bar{width: 210px;}
+  .logo-section{padding-top: 20px;}
+  .logo-area{left: 0px;}
+  .img-area{width: 100%; margin-left: 0px;}
+  .text-area-1{width: 100%; padding: 20px;}
+  .title-name{font-size: 50px;}
+  .content-area{display: flex; flex-direction: column; margin-top: 30px;}
+  .content-one{width: 100%;}
+  .content-one .title{padding-top: 20px;}
+  .content-one .img-1{padding-top: 20px; margin-left: -5px;}
+  .content-two{width: 100%;}
+  .last-content{width: 100%;}
+  .footer{display: flex; flex-direction: column;}
+  .tweets, .links, .blogs, .forms{width: 100%;}
+  .div{width: 185%;}
+  .links, .blogs, .forms{margin-left: 0px;}
+  .btn-1{margin-bottom:10px;}
+  .last-area{display: flex; flex-direction: column;}
+  .copy-right{width: 100%; font-size: 10px; margin-bottom: 10px; text-align: center;}
+  .template{width: 100%; font-size: 13px; text-align: center;}
+}
